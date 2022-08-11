@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		940D103128A4D4B900474B08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 940D103028A4D4B900474B08 /* AppDelegate.m */; };
+		940D103328A4D4BB00474B08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940D103228A4D4BB00474B08 /* Assets.xcassets */; };
+		940D103628A4D4BB00474B08 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 940D103428A4D4BB00474B08 /* MainMenu.xib */; };
+		940D103828A4D4BB00474B08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 940D103728A4D4BB00474B08 /* main.m */; };
+		940D104328A4D4BC00474B08 /* ComplicationImageTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 940D104228A4D4BC00474B08 /* ComplicationImageTableTests.m */; };
+		940D104D28A4D4BC00474B08 /* ComplicationImageTableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 940D104C28A4D4BC00474B08 /* ComplicationImageTableUITests.m */; };
+		940D104F28A4D4BC00474B08 /* ComplicationImageTableUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 940D104E28A4D4BC00474B08 /* ComplicationImageTableUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		940D103F28A4D4BC00474B08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 940D102428A4D4B900474B08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 940D102B28A4D4B900474B08;
+			remoteInfo = ComplicationImageTable;
+		};
+		940D104928A4D4BC00474B08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 940D102428A4D4B900474B08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 940D102B28A4D4B900474B08;
+			remoteInfo = ComplicationImageTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		940D102C28A4D4B900474B08 /* ComplicationImageTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComplicationImageTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		940D102F28A4D4B900474B08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		940D103028A4D4B900474B08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		940D103228A4D4BB00474B08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		940D103528A4D4BB00474B08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		940D103728A4D4BB00474B08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		940D103928A4D4BB00474B08 /* ComplicationImageTable.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ComplicationImageTable.entitlements; sourceTree = "<group>"; };
+		940D103E28A4D4BC00474B08 /* ComplicationImageTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComplicationImageTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		940D104228A4D4BC00474B08 /* ComplicationImageTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComplicationImageTableTests.m; sourceTree = "<group>"; };
+		940D104828A4D4BC00474B08 /* ComplicationImageTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComplicationImageTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		940D104C28A4D4BC00474B08 /* ComplicationImageTableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComplicationImageTableUITests.m; sourceTree = "<group>"; };
+		940D104E28A4D4BC00474B08 /* ComplicationImageTableUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComplicationImageTableUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		940D102928A4D4B900474B08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940D103B28A4D4BC00474B08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940D104528A4D4BC00474B08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		940D102328A4D4B900474B08 = {
+			isa = PBXGroup;
+			children = (
+				940D102E28A4D4B900474B08 /* ComplicationImageTable */,
+				940D104128A4D4BC00474B08 /* ComplicationImageTableTests */,
+				940D104B28A4D4BC00474B08 /* ComplicationImageTableUITests */,
+				940D102D28A4D4B900474B08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		940D102D28A4D4B900474B08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				940D102C28A4D4B900474B08 /* ComplicationImageTable.app */,
+				940D103E28A4D4BC00474B08 /* ComplicationImageTableTests.xctest */,
+				940D104828A4D4BC00474B08 /* ComplicationImageTableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		940D102E28A4D4B900474B08 /* ComplicationImageTable */ = {
+			isa = PBXGroup;
+			children = (
+				940D102F28A4D4B900474B08 /* AppDelegate.h */,
+				940D103028A4D4B900474B08 /* AppDelegate.m */,
+				940D103228A4D4BB00474B08 /* Assets.xcassets */,
+				940D103428A4D4BB00474B08 /* MainMenu.xib */,
+				940D103728A4D4BB00474B08 /* main.m */,
+				940D103928A4D4BB00474B08 /* ComplicationImageTable.entitlements */,
+			);
+			path = ComplicationImageTable;
+			sourceTree = "<group>";
+		};
+		940D104128A4D4BC00474B08 /* ComplicationImageTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				940D104228A4D4BC00474B08 /* ComplicationImageTableTests.m */,
+			);
+			path = ComplicationImageTableTests;
+			sourceTree = "<group>";
+		};
+		940D104B28A4D4BC00474B08 /* ComplicationImageTableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				940D104C28A4D4BC00474B08 /* ComplicationImageTableUITests.m */,
+				940D104E28A4D4BC00474B08 /* ComplicationImageTableUITestsLaunchTests.m */,
+			);
+			path = ComplicationImageTableUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		940D102B28A4D4B900474B08 /* ComplicationImageTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 940D105228A4D4BC00474B08 /* Build configuration list for PBXNativeTarget "ComplicationImageTable" */;
+			buildPhases = (
+				940D102828A4D4B900474B08 /* Sources */,
+				940D102928A4D4B900474B08 /* Frameworks */,
+				940D102A28A4D4B900474B08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComplicationImageTable;
+			productName = ComplicationImageTable;
+			productReference = 940D102C28A4D4B900474B08 /* ComplicationImageTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		940D103D28A4D4BC00474B08 /* ComplicationImageTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 940D105528A4D4BC00474B08 /* Build configuration list for PBXNativeTarget "ComplicationImageTableTests" */;
+			buildPhases = (
+				940D103A28A4D4BC00474B08 /* Sources */,
+				940D103B28A4D4BC00474B08 /* Frameworks */,
+				940D103C28A4D4BC00474B08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				940D104028A4D4BC00474B08 /* PBXTargetDependency */,
+			);
+			name = ComplicationImageTableTests;
+			productName = ComplicationImageTableTests;
+			productReference = 940D103E28A4D4BC00474B08 /* ComplicationImageTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		940D104728A4D4BC00474B08 /* ComplicationImageTableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 940D105828A4D4BC00474B08 /* Build configuration list for PBXNativeTarget "ComplicationImageTableUITests" */;
+			buildPhases = (
+				940D104428A4D4BC00474B08 /* Sources */,
+				940D104528A4D4BC00474B08 /* Frameworks */,
+				940D104628A4D4BC00474B08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				940D104A28A4D4BC00474B08 /* PBXTargetDependency */,
+			);
+			name = ComplicationImageTableUITests;
+			productName = ComplicationImageTableUITests;
+			productReference = 940D104828A4D4BC00474B08 /* ComplicationImageTableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		940D102428A4D4B900474B08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					940D102B28A4D4B900474B08 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					940D103D28A4D4BC00474B08 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 940D102B28A4D4B900474B08;
+					};
+					940D104728A4D4BC00474B08 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 940D102B28A4D4B900474B08;
+					};
+				};
+			};
+			buildConfigurationList = 940D102728A4D4B900474B08 /* Build configuration list for PBXProject "ComplicationImageTable" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 940D102328A4D4B900474B08;
+			productRefGroup = 940D102D28A4D4B900474B08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				940D102B28A4D4B900474B08 /* ComplicationImageTable */,
+				940D103D28A4D4BC00474B08 /* ComplicationImageTableTests */,
+				940D104728A4D4BC00474B08 /* ComplicationImageTableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		940D102A28A4D4B900474B08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940D103328A4D4BB00474B08 /* Assets.xcassets in Resources */,
+				940D103628A4D4BB00474B08 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940D103C28A4D4BC00474B08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940D104628A4D4BC00474B08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		940D102828A4D4B900474B08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940D103828A4D4BB00474B08 /* main.m in Sources */,
+				940D103128A4D4B900474B08 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940D103A28A4D4BC00474B08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940D104328A4D4BC00474B08 /* ComplicationImageTableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940D104428A4D4BC00474B08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940D104D28A4D4BC00474B08 /* ComplicationImageTableUITests.m in Sources */,
+				940D104F28A4D4BC00474B08 /* ComplicationImageTableUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		940D104028A4D4BC00474B08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 940D102B28A4D4B900474B08 /* ComplicationImageTable */;
+			targetProxy = 940D103F28A4D4BC00474B08 /* PBXContainerItemProxy */;
+		};
+		940D104A28A4D4BC00474B08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 940D102B28A4D4B900474B08 /* ComplicationImageTable */;
+			targetProxy = 940D104928A4D4BC00474B08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		940D103428A4D4BB00474B08 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				940D103528A4D4BB00474B08 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		940D105028A4D4BC00474B08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		940D105128A4D4BC00474B08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		940D105328A4D4BC00474B08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ComplicationImageTable/ComplicationImageTable.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lrucker.ComplicationImageTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		940D105428A4D4BC00474B08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ComplicationImageTable/ComplicationImageTable.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lrucker.ComplicationImageTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		940D105628A4D4BC00474B08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lrucker.ComplicationImageTableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComplicationImageTable.app/Contents/MacOS/ComplicationImageTable";
+			};
+			name = Debug;
+		};
+		940D105728A4D4BC00474B08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lrucker.ComplicationImageTableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComplicationImageTable.app/Contents/MacOS/ComplicationImageTable";
+			};
+			name = Release;
+		};
+		940D105928A4D4BC00474B08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lrucker.ComplicationImageTableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = ComplicationImageTable;
+			};
+			name = Debug;
+		};
+		940D105A28A4D4BC00474B08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lrucker.ComplicationImageTableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = ComplicationImageTable;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		940D102728A4D4B900474B08 /* Build configuration list for PBXProject "ComplicationImageTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940D105028A4D4BC00474B08 /* Debug */,
+				940D105128A4D4BC00474B08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		940D105228A4D4BC00474B08 /* Build configuration list for PBXNativeTarget "ComplicationImageTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940D105328A4D4BC00474B08 /* Debug */,
+				940D105428A4D4BC00474B08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		940D105528A4D4BC00474B08 /* Build configuration list for PBXNativeTarget "ComplicationImageTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940D105628A4D4BC00474B08 /* Debug */,
+				940D105728A4D4BC00474B08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		940D105828A4D4BC00474B08 /* Build configuration list for PBXNativeTarget "ComplicationImageTableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940D105928A4D4BC00474B08 /* Debug */,
+				940D105A28A4D4BC00474B08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 940D102428A4D4B900474B08 /* Project object */;
+}
