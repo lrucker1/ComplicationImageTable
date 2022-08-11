@@ -60,7 +60,7 @@ NSArray *ImageKindLabels = @[@"Gr Corner Text",
 #define WATCH_COUNT 5
 
 // -1 : not supported at that size.
-// These are the px dimensions, double the pt. If you set scale=2 in your drawing code, use pt values.
+// These are the pt dimensions, half the px.
 static CGFloat CK_ImageSizes[][WATCH_COUNT] =
   {{-1, 20, 21, 22, 24}, // graphicCornerTextImageSizes
    {-1, 14, 15, 16, 16.5}, // graphicCircularStackImageSizes
@@ -219,7 +219,7 @@ static CGFloat CK_RectangleWidth[WATCH_COUNT] = {-1, 150, 159, 171, 178.5};
 
     CGFloat dotInset = (rectSize - lineWidth * 2) / 2;
 #if IOS_DRAWING
-    UIGraphicsBeginImageContext(outerRect.size);
+    UIGraphicsBeginImageContextWithOptions(rect.size, NO, 2);
     CGContextRef context = UIGraphicsGetCurrentContext();
 #else
     CGSize size = outerRect.size;
@@ -305,8 +305,8 @@ static CGFloat CK_RectangleWidth[WATCH_COUNT] = {-1, 150, 159, 171, 178.5};
     CGRect rect = CGRectMake(0, 0, rectSize, rectSize);
 #if IOS_DRAWING
 // Note that this is scale==2 but the Mac version isn't. Dealing with CGContextScaleCTM is left as an exercise for the reader :)
-// If you do this on iOS, the "rectSize" from the table needs to be divided by 2 (pt instead of px), because the Watch will happily take your double-size image, center it, and clip your carefully calculated edge content. This is the bug I discovered with this app :)
-    UIGraphicsBeginImageContext(rect.size, !tinted, 2);
+// If you get pt, px, and scale out of sync and make a 2x image with px dimensions because UIGraphicsBeginImageContext defaults to scale=1, the Watch will happily take your double-size image, center it, and clip your carefully calculated edge content. This is the bug I discovered with this app :)
+    UIGraphicsBeginImageContextWithOptions(rect.size, !tinted, 2);
     CGContextRef context = UIGraphicsGetCurrentContext();
 #else
     CGSize size = rect.size;
