@@ -14,6 +14,8 @@
 		940D104328A4D4BC00474B08 /* ComplicationImageTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 940D104228A4D4BC00474B08 /* ComplicationImageTableTests.m */; };
 		940D104D28A4D4BC00474B08 /* ComplicationImageTableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 940D104C28A4D4BC00474B08 /* ComplicationImageTableUITests.m */; };
 		940D104F28A4D4BC00474B08 /* ComplicationImageTableUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 940D104E28A4D4BC00474B08 /* ComplicationImageTableUITestsLaunchTests.m */; };
+		940D105E28A4D4C800474B08 /* ComplicationTableWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 940D105C28A4D4C800474B08 /* ComplicationTableWindowController.xib */; };
+		940D105F28A4D4C800474B08 /* ComplicationTableWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 940D105D28A4D4C800474B08 /* ComplicationTableWindowController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,9 @@
 		940D104828A4D4BC00474B08 /* ComplicationImageTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComplicationImageTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		940D104C28A4D4BC00474B08 /* ComplicationImageTableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComplicationImageTableUITests.m; sourceTree = "<group>"; };
 		940D104E28A4D4BC00474B08 /* ComplicationImageTableUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComplicationImageTableUITestsLaunchTests.m; sourceTree = "<group>"; };
+		940D105B28A4D4C800474B08 /* ComplicationTableWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComplicationTableWindowController.h; sourceTree = "<group>"; };
+		940D105C28A4D4C800474B08 /* ComplicationTableWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComplicationTableWindowController.xib; sourceTree = "<group>"; };
+		940D105D28A4D4C800474B08 /* ComplicationTableWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComplicationTableWindowController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +103,12 @@
 			children = (
 				940D102F28A4D4B900474B08 /* AppDelegate.h */,
 				940D103028A4D4B900474B08 /* AppDelegate.m */,
+				940D105B28A4D4C800474B08 /* ComplicationTableWindowController.h */,
+				940D105D28A4D4C800474B08 /* ComplicationTableWindowController.m */,
+				940D105C28A4D4C800474B08 /* ComplicationTableWindowController.xib */,
+				940D103728A4D4BB00474B08 /* main.m */,
 				940D103228A4D4BB00474B08 /* Assets.xcassets */,
 				940D103428A4D4BB00474B08 /* MainMenu.xib */,
-				940D103728A4D4BB00474B08 /* main.m */,
 				940D103928A4D4BB00474B08 /* ComplicationImageTable.entitlements */,
 			);
 			path = ComplicationImageTable;
@@ -228,6 +236,7 @@
 			files = (
 				940D103328A4D4BB00474B08 /* Assets.xcassets in Resources */,
 				940D103628A4D4BB00474B08 /* MainMenu.xib in Resources */,
+				940D105E28A4D4C800474B08 /* ComplicationTableWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +263,7 @@
 			files = (
 				940D103828A4D4BB00474B08 /* main.m in Sources */,
 				940D103128A4D4B900474B08 /* AppDelegate.m in Sources */,
+				940D105F28A4D4C800474B08 /* ComplicationTableWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
